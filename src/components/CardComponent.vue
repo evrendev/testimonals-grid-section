@@ -6,7 +6,7 @@
           <img :src="imageSrc()" :alt="graduate.name" />
         </div>
         <div class="graduate">
-          <div class="name fw-semi-bold text-opacity-50">
+          <div class="name fw-semi-bold">
             {{ graduate.name }}
           </div>
           <div class="verified text-opacity-50">
@@ -14,11 +14,11 @@
           </div>
         </div>
       </div>
-      <div class="body text-opacity-70">
+      <div class="body">
         <div class="overview">
           {{ graduate.overview }}
         </div>
-        <div class="content">
+        <div class="content text-opacity-70">
           {{ graduate.content }}
         </div>
       </div>
@@ -69,22 +69,15 @@ export default {
           border-radius: 100%;
         }
       }
-
-      .graduate {
-        .name {
-          font-size: 1.25em;
-        }
-      }
     }
 
     .body {
       .overview {
-        font-size: 2em;
-        line-height: 1.25em;
+        line-height: 1.5em;
       }
       .content {
         margin-top: 1em;
-        font-size: 1.25em;
+        line-height: 1.75em;
 
         &::before,
         &::after {
