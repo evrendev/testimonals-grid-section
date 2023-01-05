@@ -1,5 +1,5 @@
-import App from "./App.vue";
+import GridSectionApp from "./App.vue";
 import { createApp } from "vue";
 
-const app = createApp(App);
+const app = createApp(GridSectionApp);
 app.mount("#app");

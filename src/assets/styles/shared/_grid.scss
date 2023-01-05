@@ -1,0 +1,42 @@
+.testimonials {
+    max-width: 1170px;
+    margin: 2em auto;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: repeat(4, 1fr);
+    
+    @include media(mobile) {
+        grid-template-columns: 1fr;
+        padding: 0 2em;
+
+        @for $i from 1 through 5 {
+            .order-#{$i} {
+                order: $i;
+            }
+        }
+    }
+
+    .grid-1-col {
+        grid-column-start: 1 / 1 span;
+    }
+
+    .grid-2-col {
+        grid-column: auto / 2 span;
+    
+        @include media(mobile) {
+            grid-column: auto / 1 span;
+        }
+    }
+
+    .grid-1-row {
+        grid-row: 1 span;
+    }
+
+    .grid-2-row {
+        grid-row: 2 span;
+    
+        @include media(mobile) {
+            grid-row: 1 span;
+        }
+    }
+}

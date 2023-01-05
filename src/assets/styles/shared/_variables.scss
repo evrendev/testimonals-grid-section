@@ -1,8 +1,11 @@
 :root {
   //Colors
-  --clr-primary-100: hsl(0, 0%, 100%); //White
-  --clr-primary-400: hsl(263, 55%, 52%); // Violet
+  --clr-primary-100: hsl(0, 0%, 100%); // White
+  --clr-primary-300: hsl(263, 55%, 60%); // Border
+  --clr-primary-400: hsl(263, 55%, 50%); // Violet
+  --clr-primary-500: hsl(217, 19%, 25%); // Violet
   --clr-primary-600: hsl(217, 19%, 35%); // Dark grayish blue
+  --clr-primary-800: hsl(219, 29%, 4%); // very dark blackish blue
   --clr-primary-900: hsl(219, 29%, 14%); // very dark blackish blue
 
   --clr-neutral-400: hsl(0, 0%, 81%);  // Light Grey
