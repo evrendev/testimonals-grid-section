@@ -97,5 +97,5 @@ I am looking forward to the next project to build on the CSS grid experience and
 
 ## Author
 
-- Frontend Mentor - [@davidrhyne](https://www.frontendmentor.io/profile/davidrhyne)
-- Twitter - [@DavidRhyne16](https://www.twitter.com/DavidRhyne16)
+- Frontend Mentor - [@davidrhyne](https://www.frontendmentor.io/profile/evrendev)
+- Twitter - [@DavidRhyne16](https://www.twitter.com/evrendev)
